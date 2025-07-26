@@ -1,0 +1,26 @@
+{
+  "name": "wallpaper-addon",
+  "version": "1.0.0",
+  "description": "Native addon to set windows behind desktop icons on Windows",
+  "main": "index.js",
+    "keywords": [
+    "wallpaper",
+    "desktop",
+    "windows",
+    "native",
+    "addon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^8.2.1",
+    "node-gyp-build": "^4.8.2"
+  },
+    "files": [
+    "binding.gyp",
+    "src/**"
+  ],
+  "scripts": {
+    "install": "node-gyp-build"
+  }
+}
